@@ -87,7 +87,7 @@ h1.main, p.demos {
 	animation-delay: 3s;
 -webkit-animation: blurFadeInOut 3.5s ease-in 3.5s backwards;
 }
-    .sp-container h2.frame-2 {
+    .sp-container h2.frame-2 span{
         font-size: 100px;
         -webkit-animation-delay: 5s;
         -moz-animation-delay: 5s;

@@ -71,6 +71,7 @@ h1.main, p.demos {
 	-moz-animation: blurFadeIn 1s ease-in 1s backwards;
 	-ms-animation: blurFadeIn 1s ease-in 1s backwards;
 	animation: blurFadeIn 1s ease-in 1s backwards;
+	-webkit-animation: blurFadeInOut 3.5s ease-in 3.5s backwards;
 	color: transparent;
 	text-shadow: 0px 0px 1px #fff;
 }
@@ -79,12 +80,14 @@ h1.main, p.demos {
 	-moz-animation-delay: 2s;
 	-ms-animation-delay: 2s;
 	animation-delay: 2s;
+-webkit-animation: blurFadeInOut 3.5s ease-in 3.5s backwards;
 }
 .sp-container h2.frame-1 span:nth-child(3) {
 	-webkit-animation-delay: 3s;
 	-moz-animation-delay: 3s;
 	-ms-animation-delay: 3s;
 	animation-delay: 3s;
+-webkit-animation: blurFadeInOut 3.5s ease-in 3.5s backwards;
 }
     .sp-container h2.frame-2 {
         font-size: 100px;

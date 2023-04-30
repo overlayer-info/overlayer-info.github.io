@@ -1,19 +1,11 @@
 #logoimg {
   position: absolute;
-  top: 49%; 
-  left: 50px;
+  top: 33%; 
+  left: 42%;
   z-index: 0; 
   transform: translateY(-50%);
   filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.8));
   aspect-ratio: auto 3300 / 5100;
-}
-
-#logoimg2 {
-  position: absolute;
-  top: 52%; 
-  left: -5px;
-  z-index: -1; 
-  transform: translateY(-50%);
 }
 
 #textimg1 {

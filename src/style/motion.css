@@ -87,7 +87,7 @@ h1.main, p.demos {
 	animation-delay: 3s;
 }
     .sp-container h2.frame-2 {
-        font-size: 200px;
+        font-size: 100px;
         -webkit-animation-delay: 5s;
         -moz-animation-delay: 5s;
         -ms-animation-delay: 5s;

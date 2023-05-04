@@ -83,7 +83,6 @@ h1.main, p.demos {
 	 -ms-animation-delay: 3s;
 	 animation-delay: 3s;
 }
-<<<<<<< HEAD
 
 
 .sp-container h2.frame-1 span:nth-child(4) {
@@ -99,14 +98,6 @@ h1.main, p.demos {
 	 -moz-animation-delay: 5s;
 	 -ms-animation-delay: 5s;
 	 animation-delay: 5s;
-=======
-    .sp-container h2.frame-2 {
-        font-size: 100px;
-        -webkit-animation: blurFadeIn 4s
-        -moz-animation: blurFadeIn 4s
-        -ms-animation: blurFadeInOut 5s;
-        animation-delay: 5s;
->>>>>>> 8abbe4d8bbc05484b6d9787210024ede72549078
 }
 .sp-globe {
 	position: absolute;

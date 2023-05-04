@@ -1,0 +1,51 @@
+#logoimg2 {
+  position: absolute;
+  top: calc(18.5vh - 3vh); 
+  left: calc(50vw - 10vw / 2 - 3vw);
+  z-index: 10; 
+  width: 10vw;
+  filter: drop-shadow(2px 2px 3px rgba(0, 0, 0, 0.8));
+  aspect-ratio: auto 3300 / 5100;
+}
+
+#Emoticon {
+  position: absolute;
+  top: calc(18.5vh - 1.1vw - 3vh); 
+  left: calc(50vw - 12vw / 2 + 3vw);
+  z-index: 9; 
+  width: 12vw;
+  aspect-ratio: auto 3300 / 5100;
+}
+
+#text {
+  position: absolute;
+  top: 21vh; 
+  left: 10vw;
+  z-index: 15; 
+  aspect-ratio: auto 3300 / 5100;
+}
+
+#text2 {
+  position: absolute;
+  top: 20vh; 
+  left: calc(100vw / 2 - 12.5%);
+  z-index: 10;
+  transform: translateY(-12vw);
+  aspect-ratio: auto 3300 / 5100;
+}
+
+#btn-1 {
+  position: absolute;
+  top: 90.5vh; 
+  left: calc(50vw - 5vw - 2.5vh);
+  z-index: 29; 
+  transform: translateY(-50%);
+}
+
+#btn-2 {
+  position: absolute;
+  top: 112.5vh; 
+  left: calc(50vw - 5vw - 2.5vh);
+  z-index: 29; 
+  transform: translateY(-50%);
+}

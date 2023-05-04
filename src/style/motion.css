@@ -1,7 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Barlow');
 
 body {
-	background: #310404 url(https://i.ytimg.com/vi/wOvQAhzWCrM/maxresdefault.jpg) no-repeat center center fixed; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -24,16 +23,13 @@ h1.main, p.demos {
 }
 .sp-container {
 	position: fixed;
-	top: 0px;
+	top: 100px;
 	left: 0px;
 	width: 100%;
 	height: 100%;
 	z-index: 0;
-	background: -webkit-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
-	background: -moz-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
-	background: -ms-radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
-	background: radial-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.3) 35%, rgba(0, 0, 0, 0.7));
 }
+
 .sp-content {
 	position: absolute;
 	width: 100%;
@@ -48,7 +44,7 @@ h1.main, p.demos {
 	line-height: 100px;
 	height: 90px;
 	margin-top: -50px;
-	font-size: 90px;
+	font-size: 80px;
 	width: 100%;
 	text-align: center;
 	color: transparent;
@@ -59,39 +55,49 @@ h1.main, p.demos {
 }
 
 .sp-container h2.frame-1 {
-	-webkit-animation: none;
-	-moz-animation: none;
-	-ms-animation: none;
-	animation: none;
-	color: transparent;
-	text-shadow: 0px 0px 1px #fff;
+	 -webkit-animation: none;
+	 -moz-animation: none;
+	 -ms-animation: none;
+	 animation: none;
+	 color: transparent;
+	 text-shadow: 0px 0px 1px #fff;
 }
+
 .sp-container h2.frame-1 span {
-	-webkit-animation: blurFadeIn 1s ease-in 1s backwards;
-	-moz-animation: blurFadeIn 1s ease-in 1s backwards;
-	-ms-animation: blurFadeIn 1s ease-in 1s backwards;
-	animation: blurFadeIn 1s ease-in 1s backwards;
-	color: transparent;
-	text-shadow: 0px 0px 1px #fff;
+	 -webkit-animation: blurFadeIn 1s ease-in 1s backwards;
+	 -moz-animation: blurFadeIn 1s ease-in 1s backwards;
+	 -ms-animation: blurFadeIn 1s ease-in 1s backwards;
+	 animation: blurFadeIn 1s ease-in 1s backwards;
+	 color: transparent;
+	 text-shadow: 0px 0px 1px #fff;
 }
 .sp-container h2.frame-1 span:nth-child(2) {
-	-webkit-animation-delay: 2s;
-	-moz-animation-delay: 2s;
-	-ms-animation-delay: 2s;
-	animation-delay: 2s;
+	 -webkit-animation-delay: 2s;
+	 -moz-animation-delay: 2s;
+	 -ms-animation-delay: 2s;
+	 animation-delay: 2s;
 }
 .sp-container h2.frame-1 span:nth-child(3) {
-	-webkit-animation-delay: 3s;
-	-moz-animation-delay: 3s;
-	-ms-animation-delay: 3s;
-	animation-delay: 3s;
+	 -webkit-animation-delay: 3s;
+	 -moz-animation-delay: 3s;
+	 -ms-animation-delay: 3s;
+	 animation-delay: 3s;
 }
-    .sp-container h2.frame-2 {
-        font-size: 200px;
-        -webkit-animation-delay: 5s;
-        -moz-animation-delay: 5s;
-        -ms-animation-delay: 5s;
-        animation-delay: 5s;
+
+
+.sp-container h2.frame-1 span:nth-child(4) {
+    position: absolute;
+	top: 220%;
+	left: 0%;
+	line-height: 100px;
+	margin-top: -50px;
+	font-size: 120px;
+	width: 100%;
+	text-align: center;
+    -webkit-animation-delay: 5s;
+	 -moz-animation-delay: 5s;
+	 -ms-animation-delay: 5s;
+	 animation-delay: 5s;
 }
 .sp-globe {
 	position: absolute;
@@ -178,7 +184,9 @@ h1.main, p.demos {
 		opacity: 1;
 		-webkit-transform: scale(1) rotate(0deg);
 	}
+	
 }
+
 /**/
 
 @-moz-keyframes blurFadeInOut {
